@@ -1,0 +1,16 @@
+#include <ios.stream>
+#include <string>
+int main (){
+    std::string ten = "le huy hoang";
+    std::string ngaysinh = "02/01/2003";
+    std::string nghenghiep = "sinh vien";
+    std::string motabanthan = "toi thich choi the thao";
+
+    std::cout << "thong tin ca nhan: " <<std::endl;
+    std::cout << "ten: " << ten << std::endl;
+    std::cout << "ngay sinh: " << ngaysinh << std::endl;
+    std::cout << "nghe nghiep: " << nghenghiep << std::endl;
+    std::cout << "mo ta ban than: " << motabanthan << std::endl;
+    
+    return 0;
+}
